@@ -16,6 +16,7 @@ h1{
 
 header{
     overflow: hidden;
+    border: 1px solid blue;
 }
 
 img{
@@ -25,4 +26,35 @@ img{
     height: 100%;
     width: 300px;
     transform: rotate(90deg);
+}
+
+ul.mainmenu{
+    display: flex;
+    list-style: none;
+    /* flex-flow: column; */
+    /* flex-flow: wrap; */
+    /* align-items: center; */
+    align-items: stretch;
+    /* justify-items: baseline; */
+    /* flex-basis: 0%; */
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: circle;
+}
+
+a.menu-link{
+    text-decoration: none;
+}
+
+.mainmenu li{
+    background-color: aquamarine;
+    margin: 10px;
+    border: 1px dashed black;
 }
